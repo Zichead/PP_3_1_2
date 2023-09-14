@@ -1,6 +1,6 @@
-package ru.zichead.PP_3_1_2.dao;
+package ru.zichead.PP_3_1_2.web.dao;
 
-import ru.zichead.PP_3_1_2.model.User;
+import ru.zichead.PP_3_1_2.web.model.User;
 
 import java.util.List;
 

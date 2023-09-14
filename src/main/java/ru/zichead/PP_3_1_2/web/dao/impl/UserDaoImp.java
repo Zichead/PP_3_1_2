@@ -1,12 +1,12 @@
-package ru.zichead.PP_3_1_2.dao.impl;
+package ru.zichead.PP_3_1_2.web.dao.impl;
 
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
-import ru.zichead.PP_3_1_2.dao.UserDAO;
-import ru.zichead.PP_3_1_2.model.User;
+import ru.zichead.PP_3_1_2.web.dao.UserDAO;
+import ru.zichead.PP_3_1_2.web.model.User;
 
 import java.util.List;
 

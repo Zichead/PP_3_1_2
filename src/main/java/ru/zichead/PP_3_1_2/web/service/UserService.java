@@ -1,6 +1,6 @@
-package ru.zichead.PP_3_1_2.service;
+package ru.zichead.PP_3_1_2.web.service;
 
-import ru.zichead.PP_3_1_2.model.User;
+import ru.zichead.PP_3_1_2.web.model.User;
 
 import java.util.List;
 

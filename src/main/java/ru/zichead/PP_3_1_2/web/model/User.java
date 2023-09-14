@@ -1,4 +1,4 @@
-package ru.zichead.PP_3_1_2.model;
+package ru.zichead.PP_3_1_2.web.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;

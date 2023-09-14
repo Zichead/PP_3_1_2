@@ -1,11 +1,11 @@
-package ru.zichead.PP_3_1_2.service.impl;
+package ru.zichead.PP_3_1_2.web.service.impl;
 
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import ru.zichead.PP_3_1_2.dao.UserDAO;
-import ru.zichead.PP_3_1_2.model.User;
-import ru.zichead.PP_3_1_2.service.UserService;
+import ru.zichead.PP_3_1_2.web.dao.UserDAO;
+import ru.zichead.PP_3_1_2.web.model.User;
+import ru.zichead.PP_3_1_2.web.service.UserService;
 
 import java.util.List;
 

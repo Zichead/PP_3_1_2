@@ -4,7 +4,6 @@ package ru.zichead.PP_3_1_2.web.dao.impl;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
 import ru.zichead.PP_3_1_2.web.dao.UserDAO;
 import ru.zichead.PP_3_1_2.web.model.User;
 
@@ -16,7 +15,6 @@ public class UserDaoImp implements UserDAO {
 
     @PersistenceContext
     EntityManager entityManager;
-    @Transactional
     @Override
     public void add(User user) {
         entityManager.persist(user);
